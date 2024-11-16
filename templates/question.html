@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>AskMeSmirnova</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css
+">
+
+
+    <style>
+        /* h1 {
+            font-size: 72px;
+        }
+
+        .btn-outline-success {
+            background: black;
+        } */
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-info">
+    <div class="container-fluid">
+        <div class="d-flex w-100 justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html">AskMeSmirnova</a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light">
+                    <a  class="ask-link" href="ask.html">Ask</a>
+                </button>
+            </form>
+
+            <div class="d-flex gap-1">
+                <img src="../static/img/231582-лягушка.jpg" alt="Avatar" class="user-logo">
+                <div>
+                    <div style="color: white;">
+                        Mr. Kva-Kva
+                    </div>
+                    <a class="setting-link " href="settings.html">Settings</a>
+                    <a class="logout-link ms-2" href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-5">
+    <div class="row">
+        <div class="col-9">
+            <div class="d-flex flex-column gap-3">
+                <div class="question">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="border mb-3" style="height: 150px">
+                                    <img src="jpg.jpg" alt="Avatar" class="img-fluid">
+                                </div>
+                                <input class="form-control" type="number" value="5" placeholder="Default input"
+                                       aria-label="default input example">
+
+                            </div>
+                            <div class="col-9">
+
+                                <h3 class="card-title text-info-emphasis" >
+                                    If you could add one futuristic feature to Xcode, what would it be?
+                                </h3>
+                                <p class="card-text text-info-emphasis">I am looking for innovative feature suggestions to enhance the functionality of Xcode, particularly focusing on areas that could improve the overall development experience for software engineers. The ideal suggestions should address common challenges faced in software development, such as code quality, automated testing, documentation, and project management.</p>
+
+                                <div class="d-flex gap-5">
+                                    <div class="text-info-emphasis">
+                                        Tags:
+                                        <a href="tag.html" class="card-link">Xcode</a>
+                                        <a href="tag.html" class="card-link">DevTools</a>
+                                        <a href="tag.html" class="card-link">Programming</a>
+                                        <a href="tag.html" class="card-link">AutomatedTesting</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card w-100 bg-info-subtle" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="border mb-2" style="height: 100px">
+                                    <img src="jpg.jpg" alt="Avatar" class="img-fluid">
+                                </div>
+                                <input class="form-control" type="number" value="5" placeholder="Default input"
+                                       aria-label="default input example">
+
+                            </div>
+                            <div class="col-9">
+
+                                <p class="card-text text-info-emphasis">My idea involves adding an analytics tool that can assess code quality and provide real-time suggestions for improvements, helping developers maintain high standards.</p>
+                                <div class="mt-3">
+                                    <input class="custom-checkbox" type="checkbox" style="zoom: 2;">
+                                    Correct
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-100 bg-info-subtle" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="border mb-2" style="height: 100px">
+                                    <img src="jpg.jpg" alt="Avatar" class="img-fluid">
+                                </div>
+                                <input class="form-control" type="number" value="5" placeholder="Default input"
+                                       aria-label="default input example">
+
+                            </div>
+                            <div class="col-9">
+
+                                <p class="card-text text-info-emphasis">I would add an AI-driven feature that automatically writes unit tests based on the code I've written. This would streamline the testing process, ensure better coverage, and help developers focus more on building new features rather than spending time on testing. With such a tool, quality assurance would become a seamless part of the development workflow!</p>
+                                <div class="mt-3">
+                                    <input class="custom-checkbox" type="checkbox" style="zoom: 2;">
+                                    Correct
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example" class="mt-3">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link text-info-emphasis" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link text-info-emphasis" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link text-info-emphasis" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link text-info-emphasis" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link text-info-emphasis" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                <hr>
+                    <form action="" class="mb-4">
+                        <textarea class="form-control mb-4" id="inputText" rows="5" placeholder="Enter your answer here..."></textarea>
+                        <button class="btn btn-outline-info w-10" type="submit">Answer</button>
+                    </form>
+        </div>
+        </div>
+        <div class="col">
+            <section class="mb-3">
+                <h2 class="text-info-emphasis">Popular Tags</h2>
+                <div>
+                    <span class="badge text-bg-primary">Python</span>
+                    <span class="badge text-bg-secondary">SQL</span>
+                    <span class="badge text-bg-success">Django</span>
+                    <span class="badge text-bg-danger">HTML</span>
+                    <span class="badge text-bg-warning">CSS</span>
+                    <span class="badge text-bg-info">Pascal</span>
+                    <span class="badge text-bg-light">VK Education</span>
+                    <span class="badge text-bg-dark">PHP</span>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-info-emphasis">Best members</h2>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#">Member</a></li>
+                        <li class="list-group-item"><a href="#">Member</a></li>
+                        <li class="list-group-item"><a href="#">Member</a></li>
+                        <li class="list-group-item"><a href="#">Member</a></li>
+                        <li class="list-group-item"><a href="#">Member</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+</main>
+<footer class="footer bg-info d-flex align-items-center justify-content-center">
+    ©️ 2024
+</footer>
+<script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
